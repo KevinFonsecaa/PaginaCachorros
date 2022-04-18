@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>meu site</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--NAV BAR-->
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container-fluid col-10 m-auto">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+      <!--Carrocel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/pexels-adam-kontor-333083.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/pexels-charles-1851164.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/pexels-lumn-406014.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/doberman.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Doberman</h5>
+              <p class="card-text">Dobermann é uma raça de cães do grupo pinscher, oriunda da Alemanha. A raça foi desenvolvida inicialmente por Karl Friedrich Louis Dobermann em Apolda na Alemanha por volta de 1860. Foi a primeira raça criada especialmente para proteção.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/shit-zu.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shih-tzu</h5>
+              <p class="card-text">Shih-tzu é uma raça de pequenos cães de companhia de pelo longo, originária do Tibete.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/chow-chow.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chow-chow</h5>
+              <p class="card-text">Chow-chow é uma raça de cães do tipo spitz originária da China. Em sua origem como cão versátil, a raça foi utilizada para várias funções, tais como cão de guarda, cão de caça e cão de trenó. É conhecido por sua distinta língua “azul”.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/dalmata.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dálmata</h5>
+              <p class="card-text">Dálmata é uma raça canina antiga, oriunda do Leste Europeu, da região da Dalmácia, e reconhecida por sua característica pelagem manchada. Cão muito utilizado para a caça de aves e, durante a Idade Média, foi também utilizado para acompanhar as carruagens.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="imagens/golden.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">golden retriever</h5>
+                <p class="card-text">O golden retriever é uma raça canina do tipo retriever originária da Grã-bretanha, e foi desenvolvida para a caça de aves aquáticas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="imagens/pit-bull.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pit bull</h5>
+                <p class="card-text">Pit bull — “abreviação” de American Pit Bull Terrier — é uma raça de cães oriunda dos Estados Unidos. É uma raça pura de cães de porte médio e atléticos, desenvolvida no século XIX, pertencente à categoria terrier, subdivisão terrier de tipo bull.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+     
+</body>
+</html>
+
