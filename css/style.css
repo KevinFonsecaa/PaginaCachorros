@@ -3,3 +3,45 @@
 body{
     background-color: rgb(248, 249, 250);
 }
+
+h2{
+    font-weight: bolder;
+
+}
+
+i{
+    font-size: 50px;
+}
+
+.whatsapp-contact{   
+    color: rgb(17, 84, 17);
+}
+
+
+.contacts-info{
+
+    
+    font-weight: bolder;
+    display: inline;
+
+}
+
+footer{
+    color: grey;
+    background-color: rgb(55, 54, 54);
+    padding: 5px;
+}
+
+footer p:hover{
+
+    color: white;
+    transition-delay: 1.5ms;
+    cursor: pointer;
+
+}
+
+ul > li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;   
+}
